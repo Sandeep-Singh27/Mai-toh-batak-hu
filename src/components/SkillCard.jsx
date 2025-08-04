@@ -1,7 +1,8 @@
 function SkillCard({photo,skillname}){
     return(
         <div 
-        className="flex flex-col justify-between p-4 border-2 border-white rounded-2xl hover:bg-green-400 w-1/8 h-1/2 items-center bg-blue-500">
+        className="flex flex-col justify-between p-4 border-2 border-white rounded-2xl hover:bg-green-400 w-1/8 h-1/2 items-center bg-blue-500"
+        >
             <div className="overflow-hidden h-50 w-40 mx-auto rounded-2xl mt-5 border-1 border-white">
                 <img 
                 src={photo} 

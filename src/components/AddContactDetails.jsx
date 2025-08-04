@@ -14,12 +14,12 @@ function AddContactDetails(){
         setUseForRef(sampleRef.current.value!=""? sampleRef.current.value : "You are foobar!")
     }
 
-    const goToHome=()=>{
-        navigate("/")
+    const goToGif=()=>{
+        navigate("/watch-meme-gif")
     }
 
     return (
-        <div className="w-full h-full">
+        <div className="w-full h-full pr-12">
 
             <div className="bg-blue-500 border-3 border-white rounded-2xl">  
                 <form className="text-white font-mono flex flex-col bg-[rgba(0,0,0,0)] p-10 font-bold">
@@ -73,8 +73,8 @@ function AddContactDetails(){
                 {/* <hr className="w-3/5 border-2 border-white"/> */}
                 <button 
                 className="h-25 w-25 bg-blue-500  rounded-xl border-3 border-white text-xl text-center hover:bg-green-400" 
-                onClick={goToHome}>
-                    Home
+                onClick={goToGif}>
+                    Watch<br/>Meme<br/>Gif
                 </button>
 
             </div>
