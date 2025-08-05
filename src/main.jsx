@@ -8,7 +8,6 @@ import Home from './pages/Home.jsx';
 import Contacts from './pages/Contacts.jsx';
 import Skills from './pages/Skills.jsx';
 import GoToGif from './pages/GoToGif.jsx';
-import SingleGif from './pages/SingleGif.jsx';
 
 
 const router = createBrowserRouter([
@@ -24,9 +23,6 @@ const router = createBrowserRouter([
 {
  path:"/watch-meme-gif",
  element:<GoToGif/>},
- {
- path:"/watch-meme-gif/:meme_name",
- element:<SingleGif/>},
 ])
 
 createRoot(document.getElementById('root')).render(
