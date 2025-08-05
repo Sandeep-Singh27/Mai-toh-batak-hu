@@ -1,5 +1,6 @@
 import { useState } from "react";
 import dad_joke from "../api services/dad_jokes";
+import pfp from "../assets/Goose/goose.jpg"
 
 function About({ name }) {
   const [showMore, setShowMore] = useState(true);
@@ -46,7 +47,7 @@ function About({ name }) {
       </div>
       <div className=" w-1/2 border-3 m-3 rounded-2xl border-white">
         <img 
-        src="src\assets\Goose\goose.jpg" 
+        src={pfp}
         alt="pfp"
         className="rounded-xl"
         />
