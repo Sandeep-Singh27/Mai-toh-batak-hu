@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import AddContactSection from "../components/AddContactSection";
+import honk_wonk from "../assets/Goose/goose-funny.gif"
 
 function Contacts(){
     return(
@@ -14,7 +15,7 @@ function Contacts(){
                     </div>
                     <div className="m-10 border-2 border-white rounded-2xl bg-blue-400">
                         <img 
-                            src="src\assets\Goose\goose-funny.gif"
+                            src={honk_wonk}
                             className=" rounded-xl m-2"
                         />
                     </div>
