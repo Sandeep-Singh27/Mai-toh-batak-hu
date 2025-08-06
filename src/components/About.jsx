@@ -3,7 +3,7 @@ import dad_joke from "../api services/dad_jokes";
 import pfp from "../assets/Goose/goose.jpg"
 
 function About({ name }) {
-  const [showMore, setShowMore] = useState(false);
+  const [showMore, setShowMore] = useState(true);
   const [currentjoke, setcurrentjoke] = useState("Indian Politics")
 
   const handleClick = async()=>{
@@ -32,7 +32,7 @@ function About({ name }) {
                 }
                 className="bg-white w-fit px-2 rounded font-bold font-mono hover:bg-blue-400 hover:border-2 hover:border-white hover:text-2xl hover:text-white mt-auto"
                 >
-                {showMore? "Show Less":"Show More"}
+                {showMore? "Show More":"Show Less"}
                 </button>
                 {/* Button 2 */}
                 <button onClick={handleClick}
