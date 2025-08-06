@@ -1,11 +1,11 @@
 import Header from "../components/Header";
 import SkillCard from "../components/SkillCard";
 
-import danceGif from "../assets/goose/dance-cute-ducky-cute.gif";
-import swimGif from "../assets/goose/duck-ducking.gif";
-import driveGif from "../assets/goose/duck-with.gif";
-import runGif from "../assets/goose/goose-geese.gif";
-import seeGif from "../assets/goose/goose-see.gif";
+import danceGif from "../assets/Goose/dance-cute-ducky-cute.gif";
+import swimGif from "../assets/Goose/duck-ducking.gif";
+import driveGif from "../assets/Goose/duck-with.gif";
+import runGif from "../assets/Goose/goose-geese.gif";
+import seeGif from "../assets/Goose/goose-see.gif";
 
 function Skills(){
     const skill_json = [
