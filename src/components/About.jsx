@@ -3,8 +3,8 @@ import dad_joke from "../api services/dad_jokes";
 import pfp from "../assets/Goose/goose.jpg"
 
 function About({ name }) {
-  const [showMore, setShowMore] = useState(true);
-  const [currentjoke, setcurrentjoke] = useState("Your Mom")
+  const [showMore, setShowMore] = useState(false);
+  const [currentjoke, setcurrentjoke] = useState("Indian Politics")
 
   const handleClick = async()=>{
        const joke = await dad_joke();
